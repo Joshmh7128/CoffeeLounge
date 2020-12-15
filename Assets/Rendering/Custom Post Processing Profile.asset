@@ -35,7 +35,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   skyType:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 0
   skyAmbientMode:
     m_OverrideState: 1
     m_Value: 0
@@ -236,7 +236,7 @@ MonoBehaviour:
     max: 4
   directLightingStrength:
     m_OverrideState: 1
-    m_Value: 0.551
+    m_Value: 0.433
     min: 0
     max: 1
   radius:
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ddcec8a8eb2d684d833ac8f5d26aebd, type: 3}
   m_Name: HDShadowSettings
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   maxShadowDistance:
     m_OverrideState: 1
@@ -373,6 +373,7 @@ MonoBehaviour:
   - {fileID: -7205834263639281915}
   - {fileID: -7940732415681913086}
   - {fileID: -7473880825971145736}
+  - {fileID: 8006470504853813949}
 --- !u!114 &3035964913812458500
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -493,6 +494,28 @@ MonoBehaviour:
     m_Value: 8
     min: 4
     max: 64
+--- !u!114 &8006470504853813949
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f034cba68ab55e046ae1445a42f18c0e, type: 3}
+  m_Name: IndirectLightingController
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  indirectSpecularIntensity:
+    m_OverrideState: 1
+    m_Value: 2.07
+    min: 0
+  indirectDiffuseIntensity:
+    m_OverrideState: 1
+    m_Value: 13.01
+    min: 0
 --- !u!114 &9078710658449727193
 MonoBehaviour:
   m_ObjectHideFlags: 3
